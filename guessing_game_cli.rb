@@ -26,6 +26,7 @@ if input != 'exit'
 
 
 
+
 #when 'exit'
 puts "Goodbye"
 end
