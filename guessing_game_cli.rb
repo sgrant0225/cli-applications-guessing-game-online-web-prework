@@ -22,7 +22,7 @@ end
 def run_guessing_game
 input = users_input
 guess_random = users_guess
-if guess_correct 
+if input == guess_random
 
 
 
