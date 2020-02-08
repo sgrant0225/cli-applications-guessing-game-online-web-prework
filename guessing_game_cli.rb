@@ -13,10 +13,6 @@ end
 
 
 
-
-
-
-
 # def users_guess
 # random_number = rand(6) + 1
 # end
