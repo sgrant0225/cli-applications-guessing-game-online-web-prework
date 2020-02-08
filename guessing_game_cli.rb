@@ -25,7 +25,7 @@ guess_random = users_guess
 if input.to_i == guess_random
   guess_correct
  else
-   guess_incorrect(guess_random)
+   guess_incorrect
 end
 user_exit
 end
