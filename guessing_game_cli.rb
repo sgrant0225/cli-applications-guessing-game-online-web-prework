@@ -20,7 +20,7 @@ end
 
 
 def run_guessing_game
-input.to_i = users_input
+input = users_input
 guess_random = users_guess
  if input != 'exit'
  if input.to_i == guess_random
