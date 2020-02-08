@@ -25,6 +25,7 @@ guess_random = users_guess
 if input.to_i == guess_random
   guess_correct
  else
-   guess_incorrect
-puts "Goodbye"
+   guess_incorrect(guess_random)
+end
+user_exit
 end
