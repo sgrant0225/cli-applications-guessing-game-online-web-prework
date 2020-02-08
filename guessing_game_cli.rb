@@ -11,7 +11,7 @@ puts "You guessed the correct number!"
 end
 
 def guess_incorrect
-puts "Sorry! The computer guessed #{number}."
+puts "Sorry! The computer guessed #{random_number}."
 end  
 
 def user_exit
@@ -20,14 +20,13 @@ end
 
 
 def run_guessing_game
-  random_number = rand(6) + 1
-input = users_input
+input.to_i = users_input
 guess_random = users_guess
  if input != 'exit'
  if input.to_i == guess_random
    guess_correct
  elsif
-   
+   guess_incorrect
 end
 else
   user_exit
