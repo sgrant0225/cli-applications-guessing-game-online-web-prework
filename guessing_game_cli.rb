@@ -1,5 +1,5 @@
 def users_guess
- rand(6) + 1
+ random_number = rand(6) + 1
 end
 
 def users_input
