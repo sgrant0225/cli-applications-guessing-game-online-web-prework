@@ -28,6 +28,7 @@ guess_random = users_guess
  else
    guess_incorrect(guess_random)
 end
-user_exit
+else
+  user_exit
 end
 end
