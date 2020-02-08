@@ -25,8 +25,8 @@ guess_random = users_guess
  if input != 'exit'
  if input.to_i == guess_random
    guess_correct
- else
-   puts "Sorry! The computer guessed <number>."
+ elsif
+   
 end
 else
   user_exit
