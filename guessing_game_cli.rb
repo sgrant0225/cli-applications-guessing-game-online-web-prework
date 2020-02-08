@@ -20,7 +20,7 @@ end
 
 
 def run_guessing_game
-
+  random_number = rand(6) + 1
 input = users_input
 guess_random = users_guess
  if input != 'exit'
