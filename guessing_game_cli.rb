@@ -11,7 +11,7 @@ puts "You guessed the correct number!"
 end
 
 def guess_incorrect
-puts "Sorry! The computer guessed #{number}"
+puts "Sorry! The computer guessed #{number}."
 end  
 
 def user_exit
